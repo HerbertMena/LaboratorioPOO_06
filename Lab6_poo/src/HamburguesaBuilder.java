@@ -5,5 +5,8 @@ public interface HamburquesaBuilder {
     void setLechuga(boolean cebolla);
     void setLechuga(boolean queso);
 
+    HamburguesaBuilder build();
+
+
 
 }
